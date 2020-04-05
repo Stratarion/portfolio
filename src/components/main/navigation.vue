@@ -5,7 +5,7 @@
       app
     >
       <v-list dense>
-        <v-list-item link v-for="link in links" :key="link" :to="link.address">
+        <v-list-item link v-for="(link, index) in links" :key="index" :to="link.address">
           <!-- <router-link tag="div" :to="{ name: link.address }"> -->
             <v-list-item-action>
               <v-icon>{{ link.icon }}</v-icon>
@@ -28,45 +28,10 @@ export default {
   components: {
     Header
   },
+  props: ['links'],
   data: () => ({
     drawer: true,
-    links: [
-      {
-        text: 'В начало',
-        address: '/',
-        icon: 'mdi-home',
-      },
-      {
-        text: 'Верстка',
-        address: 'html-projects',
-        icon: 'mdi-language-html5',
-      },
-      // {
-      //   text: 'Приложения на ReactJS',
-      //   address: '/',
-      //   icon: 'mdi-react',
-      // },
-      {
-        text: 'Приложения на VueJS',
-        address: 'vue-projects',
-        icon: 'mdi-vuejs',
-      },
-      {
-        text: 'Нативный JS',
-        address: 'js-projects',
-        icon: 'mdi-language-javascript',
-      },
-      {
-        text: 'Другое',
-        address: 'other-page',
-        icon: 'mdi-archive',
-      },
-      {
-        text: 'Замороженные проекты',
-        address: 'freeze-projects',
-        icon: 'mdi-snowflake-alert',
-      }
-    ]
+    
   }),
   methods: {
     toggleDrawer() {

@@ -1,19 +1,9 @@
 <template>
   <v-app id="inspire">
-   <Navigation />
+   <Navigation :links="links" />
     <v-content>
-      <v-container
-        class="fill-height"
-        fluid
-      >
-        <v-row
-          align="center"
-          justify="center"
-        >
-          <v-col class="text-center">
-              <router-view></router-view>
-          </v-col>
-        </v-row>
+      <v-container>
+        <router-view></router-view>
       </v-container>
     </v-content>
     <Footer />
@@ -22,8 +12,8 @@
 
 <script>
 
-import Footer from '@/components/main/footer'
-import Navigation from '@/components/main/navigation'
+import Footer         from '@/components/main/footer'
+import Navigation     from '@/components/main/navigation'
 
   export default {
     props: {
@@ -33,5 +23,44 @@ import Navigation from '@/components/main/navigation'
       Footer,
       Navigation,
     },
+    data: () => ({
+      links: [
+        {
+          text: 'В начало',
+          address: '/',
+          icon: 'mdi-home',
+        },
+        {
+          text: 'Верстка',
+          address: 'html-projects',
+          icon: 'mdi-language-html5',
+        },
+        // {
+        //   text: 'Приложения на ReactJS',
+        //   address: '/',
+        //   icon: 'mdi-react',
+        // },
+        {
+          text: 'Приложения на VueJS',
+          address: 'vue-projects',
+          icon: 'mdi-vuejs',
+        },
+        {
+          text: 'Нативный JS',
+          address: 'js-projects',
+          icon: 'mdi-language-javascript',
+        },
+        {
+          text: 'Другое',
+          address: 'other-page',
+          icon: 'mdi-archive',
+        },
+        {
+          text: 'Замороженные проекты',
+          address: 'freeze-projects',
+          icon: 'mdi-snowflake-alert',
+        }
+      ]
+    })
   }
 </script>

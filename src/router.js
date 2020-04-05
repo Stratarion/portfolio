@@ -1,11 +1,11 @@
 
-import Router                   from 'vue-router'
-import home                     from '@/pages/home'
-import vueProjects              from '@/pages/vueProjects'
-import jsProjects               from '@/pages/jsProjects'
-import htmlProjects             from '@/pages/htmlProjects'
-import freezeProjects           from '@/pages/freezeProjects'
-import otherPage                from '@/pages/otherPage'
+import Router               from 'vue-router'
+import home                 from '@/pages/home'
+import vueProjects          from '@/pages/vueProjects'
+import jsProjects           from '@/pages/jsProjects'
+import htmlProjects         from '@/pages/htmlProjects'
+import freezeProjects       from '@/pages/freezeProjects'
+import otherPage            from '@/pages/otherPage'
 
 
 

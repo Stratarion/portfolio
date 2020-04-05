@@ -1,11 +1,11 @@
 <template>
   <v-app-bar
     app
-    color="indigo"
+    color="cyan darken-2"
     dark
   >
     <v-app-bar-nav-icon @click.stop="toggleDrawer" />
-    <v-toolbar-title>Stratarion git-hub portfolio</v-toolbar-title>
+    <v-toolbar-title>Oleg Volkov</v-toolbar-title>
   </v-app-bar>
 </template>
 

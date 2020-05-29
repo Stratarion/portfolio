@@ -20,7 +20,7 @@
         <v-carousel
           v-if="project.gallery"
           cycle
-          height="400"
+          height="500"
           hide-delimiter-background
           show-arrows-on-hover
         >

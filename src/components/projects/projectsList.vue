@@ -15,7 +15,7 @@
             :src="require('@/images/projects/' + project.src)"
             class="white--text"
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-            height="300px"
+            height="350px"
           >
             <v-expand-transition>
               <div

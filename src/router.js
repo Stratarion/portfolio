@@ -12,6 +12,7 @@ import otherPage            from '@/pages/otherPage'
 
 export default new Router({
     mode: 'history',
+    base: 'portfolio',
     routes: [
         {
             path: '/',

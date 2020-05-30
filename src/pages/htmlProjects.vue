@@ -22,7 +22,7 @@ export default {
         gallery_folder: 'ew_real_estate',
         gallery: ['main_page.jpg', 'footer.jpg', 'serach.jpg', 'slider.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/testOHDESIGN',
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/testOHDESIGN',
           pages: 'https://stratarion.github.io/testOHDESIGN/'
         },
         src: 'ew_real_estate.png',
@@ -34,8 +34,8 @@ export default {
         gallery_folder: 'credit_center_landing',
         gallery: ['mainpage.jpg', 'calculator.jpg', 'feedback.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/-credit_center_landing',
-          pages: 'https://stratarion.github.io/-credit_center_landing/'
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/lpnew',
+          pages: 'https://stratarion.github.io/lpnew'
         },
         src: 'credit_center_landing.jpg',
       },
@@ -46,8 +46,8 @@ export default {
         gallery_folder: 'mlmlanding',
         gallery: ['Screenshot_1.jpg', 'Screenshot_2.jpg', 'Screenshot_3.jpg', 'Screenshot_4.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/mlmlanding',
-          pages: 'https://stratarion.github.io/mlmlanding/'
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/pro103_proManager',
+          pages: 'https://stratarion.github.io/pro103_proManager/'
         },
         src: 'pro_manager.jpg',
       },
@@ -58,8 +58,8 @@ export default {
         gallery_folder: 'mlmlanding',
         gallery: ['Screenshot_1.jpg', 'Screenshot_2.jpg', 'Screenshot_3.jpg', 'Screenshot_4.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/mlmlanding',
-          pages: 'https://stratarion.github.io/mlmlanding/'
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/mlm_landing',
+          pages: 'https://stratarion.github.io/mlm_landing/'
         },
         src: 'mlmlanding.jpg',
       },
@@ -70,7 +70,7 @@ export default {
         gallery_folder: 'antares',
         gallery: ['Screenshot_1.jpg', 'Screenshot_2.jpg', 'Screenshot_3.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/antares_for_gihub',
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/antares_for_gihub',
           pages: 'https://stratarion.github.io/antares_for_gihub/'
         },
         src: 'antares.jpg',
@@ -82,8 +82,8 @@ export default {
         gallery_folder: 'vr-glass',
         gallery: ['Screenshot_1.jpg', 'Screenshot_2.jpg', 'Screenshot_3.jpg', 'Screenshot_4.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/vr-glass',
-          pages: 'https://stratarion.github.io/vr-glass/'
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/VR-glass',
+          pages: 'https://stratarion.github.io/VR-glass/'
         },
         src: 'vr-glass.jpg',
       },
@@ -94,8 +94,8 @@ export default {
         gallery_folder: 'gipsolit',
         gallery: ['Screenshot_1.jpg', 'Screenshot_2.jpg', 'Screenshot_3.jpg', 'Screenshot_4.jpg', 'Screenshot_5.jpg', 'Screenshot_6.jpg'],
         links: {
-          git: 'https://github.com/Stratarion/gipsolit_landing',
-          pages: 'https://stratarion.github.io/gipsolit_landing/'
+          git: 'https://github.com/Stratarion/Stratarion.github.io/tree/master/gipsolit',
+          pages: 'https://stratarion.github.io/gipsolit/'
         },
         src: 'gipsolit.jpg',
       },

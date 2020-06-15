@@ -50,16 +50,16 @@ import Navigation     from '@/components/main/navigation'
           address: 'js-projects',
           icon: 'mdi-language-javascript',
         },
-        {
-          text: 'Другое',
-          address: 'other-page',
-          icon: 'mdi-archive',
-        },
-        {
-          text: 'Замороженные проекты',
-          address: 'freeze-projects',
-          icon: 'mdi-snowflake-alert',
-        }
+        // {
+        //   text: 'Другое',
+        //   address: 'other-page',
+        //   icon: 'mdi-archive',
+        // },
+        // {
+        //   text: 'Замороженные проекты',
+        //   address: 'freeze-projects',
+        //   icon: 'mdi-snowflake-alert',
+        // }
       ]
     })
   }
